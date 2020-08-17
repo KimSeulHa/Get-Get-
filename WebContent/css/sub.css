@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+.bread_crumbs { margin-top: -55px; padding: 0 0 0 210px;}
+.bread_crumbs > div:after {content: ""; display: block; clear: both;}
+.bread_crumbs > div {border-bottom:1px solid #dfdfdf; background: #fff;}
+.bread_crumbs > div >* { float: left;}
+.bread_crumbs > div > a { display: block; width: 73px; height: 54px; text-align: center; line-height: 54px; font-size: 0;}
+.bread_crumbs > div > a:before { content:""; display: inline-block; position: relative; top:8px; width: 17px; height: 18px; background: url(../images/icon.png) no-repeat -238px -5px;}
+.bread_crumbs div > div { position: relative; border-left: 1px solid #dfdfdf;}
+.bread_crumbs div > div:hover ul { display: block;}
+.bread_crumbs div > div:last-child { border-right: 1px solid #dfdfdf;}
+.bread_crumbs div > div > a { display: block; width: 239px; height: 54px; font-size: 15px; color:#333; text-indent: 30px; background: url(../images/bu_arrow.png) no-repeat right 20px center; line-height: 54px;}
+.bread_crumbs ul { display: none; position: absolute; z-index: 10; left: -1px; width:241px; box-sizing: border-box; border:1px solid #dfdfdf; padding: 10px 0; background: #fff;}
+.bread_crumbs ul a { display: block; height:35px; text-indent: 26px; line-height: 35px;  font-size: 15px; color:#333; }
+.bread_crumbs ul a:hover { color:#042e9d}
+
+/* 회원가입 */
+.step { display: flex; border-top: 1px solid #aaa; border-bottom: 1px solid #aaa;}
+
+.step li { flex: 1; position: relative; padding: 22px 0; font-size: 11px; color:#a5a5a5; text-align: center; line-height: 100%;}
+.step li:after { content: ""; position: absolute; right: 0; top: 50%; width: 12px; height: 19px; transform: translate(-50%, -50%); background: url("/getget/images/icon.png") no-repeat -304px -58px;}
+.step li:last-child:after { display: none;}
+.step li div { padding: 8px 0 0; font-size: 18px; color:#a5a5a5;}
+.step li.on { color:#222;}
+.step li.on div { color:#FFA2A2;}
+.join_box1 { margin: 50px 0 32px; padding: 40px 0 0; height: 402px; background:url("/getget/images/bg_msgbox01.png") no-repeat 0 0, url("/getget/images/bg_msgbox02.png") no-repeat right bottom; background-color: #e4e8f1; text-align: center; box-sizing: border-box;}
+.join_box1 h3 { position: relative; padding: 86px 0 37px; font-size: 24px; color:#222; background: url("/getget/images/ico_member_join05.png") no-repeat center top; line-height: 100%;}
+.join_box1 h3:after { content: ""; position: absolute; left: 50%; bottom: 0; width: 50px; height: 2px; background: #222; transform: translateX(-50%);}
+.join_box1 p { padding: 37px 0 57px; font-size: 14px; color:#888;}
+
+.agree_box { overflow: auto; margin: 0 0 28px; padding: 35px 30px; height: 152px; border-top: 2px solid #042e6f; border-bottom: 1px solid #999;}
+.agree_box h4 { padding: 0 0 12px; font-size: 17px; color:#222; line-height: 100%; font-weight: normal;}
+.agree_box h5 { padding: 15px 0 8px; font-size: 14px; color:#222; font-weight: normal; line-height: 100%;}
+.agree_box p { line-height: 26px; font-size: 14px; color:#777;}
+.agree_box p + h4,
+.agree_box ul + h4 { padding-top: 30px; }
+.agree_box ol + h4 { padding-top: 35px; }
+.agree_box li { font-size: 14px; color:#777; line-height: 26px;}
+.agree_box > ul > li:before { content: ""; display: inline-block; margin: 0 7px 0 0; width: 2px; height: 2px; background: #888; vertical-align:middle;}
+.agree_box > ul > li ul { padding: 0 0 0 9px;}
+.agree_box > ol > li ol { padding: 0 0 0 12px;}
+.agree_box.ovn { overflow: visible; height: auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

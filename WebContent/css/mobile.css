@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+header h1 { float:none; position: absolute; left: 50%; top:15px; transform: translateX(-50%) scale(0.6); padding:0;}
+header h1 img{ width:198px; height:75px;}
+header .left { float:none; padding: 0px 0px 0px 0px;}
+header .all { display: block; position: relative; margin-top:40px; margin-bottom:30px; width:42px; height: 18px; border-top: 2px solid black; border-bottom: 2px solid black; color:transparent; transform: scale(0.8);}
+header .all:before { content: ""; position: absolute; left: 0; top: 50%; width: 100%; height: 2px; background: black; margin-top: -1px;}
+header .left > div { float:none; }
+/*header > ul { padding: 33px 17px 0 0; }*/
+header > ul { padding: 30px 40px 0 0;}
+header > ul li {display: none;}
+header > ul li.join { display: block;}
+header > ul li.join a { width:40px; height: 50px;  background: url("/getget/images/layout_m.png") no-repeat -63px -35px / 300px auto; border: none; color:transparent;}
+header > ul li a {width: 70px;}
+
+/* 모바일메뉴 */
+header .close,
+header .all,
+header .left > div > div,
+header h2 { display: block;}
+header .left > div{ display: block;}
+header .nav {  position: absolute; left:-120%; top: 0; z-index: 101; transition: left 0.7s; padding: 15px 24px 15px 22px; width:calc(100% - 32px); height: 100%; background: #fff; box-sizing: border-box;}
+header .nav.on { left: 0;}
+header .nav.on nav { padding: 0 0 24px; border-top: 4px solid #0091d0;}
+header .nav.on nav a { height: 40px; line-height: 40px; color:#111; font-size:17px;}
+header .nav.on nav a:before { display: none;}
+header .nav.on nav li { float: none; border-bottom: 1px solid #eee;}
+header .nav.on div { display: flex; border:1px solid #eee;}
+header .nav.on div a:first-child { border: none;}
+header .nav.on div a { flex:1; height: 38px; border-left: 1px solid #eee; line-height: 38px; text-align: center; color:#666; font-size: 15px; font-weight: bold;}
+header .nav.on .close { position: absolute; right: 24px; top: 24px; width: 20px; height: 20px; color:transparent;}
+header .nav.on .close:before { content: ""; position: absolute; left:46%; top: 0; width: 1px; height: 100%; background: #5a5a5a; transform: rotate(45deg);}
+header .nav.on .close:after { content: ""; position: absolute; right:45%; top: 0; width: 1px; height: 100%; background: #5a5a5a; transform: rotate(-45deg);}
+header h4 img{ vertical-align:left; padding : 10px;  }
+.dim { display: none;position: fixed; left: 0; top: 0; z-index: 100; width: 100%; height: 100%; background: rgba(0,0,0,0.5);}
+
+
+
+header #lnb { display:none; position: absolute; left: 0; top: 0; z-index: 30; padding: 0 232px; width: 100%;  box-sizing: border-box;}
+header #lnb nav { display:none; position: relative; z-index: 30; border-bottom: 1px solid rgba(255,255,255,.5); height:10%; text-align: center; font-size: 0;}
+
+
+
+
+article{
+	width: 100%;
+	overflow:hidden;
+	display:center;
+	}
+.search {
+    width: 350px;
+    height: 43px;
+    padding: 10px;
+    margin: 50px auto 50px auto;
+    background: #FFDDDD;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+.search input {
+    width: 250px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;
+    border: 0;
+	background: #eee;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.search input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+
+.search input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.search input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.search button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 90px;
+    font: bold 13px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: gray;
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}
+
+.search button:hover{
+    background: gray;
+}
+
+.search button:active,
+.search button:focus{
+    background: gray;
+	outline: 0;
+}
+
+.search button:before {
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent gray transparent;
+    top: 12px;
+    left: -6px;
+}
+

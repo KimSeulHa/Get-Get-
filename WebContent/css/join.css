@@ -1,0 +1,187 @@
+@charset "utf-8";
+form{
+	float:none;
+	width:80%;
+	font-size:15px;
+	margin:auto;
+	text-align:center;
+	display:center;
+	}
+fieldset{
+	width:80%;
+	margin:auto;
+	display:center;
+}
+h3{
+	font-size:40px;
+	font-weight:700;
+	text-align:center;
+	margin-bottom:15px;
+	}
+	
+.fieldlabel{
+	 float:left;
+	 margin-top:5px;
+	}
+
+.formfield{
+	margin-bottom:20px;
+}
+	
+.btnfield{
+	margin:20px 0 0 130px;
+	}
+
+	
+input[type="text"] {
+				width:50%;
+				font-size:15px;
+				text-align:center;
+				height:35px;
+			 }	
+input[type="password"] {
+				width:50%;
+				font-size:15px;
+				text-align:center;
+				height:35px;
+			 }	
+		 
+#email02{
+				height:35px;
+}			 
+
+.fieldlabel{
+	float:left;
+	
+	width:120px;
+	margin-bottom:10px;
+	text-align:right;
+	padding-right:10px;}
+
+.btnfield{
+	margin:20px 0 0 130px;
+	}
+			
+
+@media (max-width:1000px){
+form{
+	float:none;
+	width:80%;
+	font-size:15px;
+	margin:auto;
+	text-align:center;
+	display:center;
+	}
+h3{
+	font-size:30px;
+	margin-top:10px;
+	font-weight:700;
+	text-align:center;
+	margin-bottom:10px;
+	}
+fieldset{
+		padding:5px;
+}
+	
+.fieldlabel{
+	 float:left;
+	 margin-top:5px;
+	 width:120px;
+	 text-align:right;
+	 padding-right:10px;
+	}
+
+.formfield{
+	margin-bottom:10px;
+}
+	
+.btnfield{
+	margin:20px 0 0 130px;
+	}
+
+	
+input[type="text"] {
+				width:50%;
+				font-size:15px;
+				text-align:left;
+				height:35px;
+			 }
+#email01{
+				float:left;
+				margin-left:10px;
+				padding-right:5px;
+				width:30%;
+				font-size:15px;
+				text-align:left;
+				height:35px;
+}			 
+#email02{
+				clear:left;
+				padding-right:5px;
+				width:30%;
+				font-size:15px;
+				text-align:left;
+				height:35px;
+}			 
+
+			 
+.formfield_email{
+				float:left;
+				padding-right:5px;
+				width:40%;
+				font-size:15px;
+				text-align:left;
+				height:35px;
+			}
+			
+			
+			 
+input[type="password"] {
+				width:50%;
+				font-size:15px;
+				text-align:left;
+				height:35px;
+			 }	
+}
+	
+	
+			
+@media (max-width:690px){	
+#email01{
+				float:left;
+				margin-left:10px;
+				padding-right:5px;
+				width:20%;
+				font-size:12px;
+				text-align:left;
+				height:35px;
+}			 
+#email02{
+				clear:left;
+				padding-right:5px;
+				width:20%;
+				font-size:12px;
+				text-align:left;
+				height:35px;
+}	
+}					
+	
+@media (max-width:609px){			 
+#mPhone2{
+				clear:left;
+				padding-right:5px;
+				width:30%;
+				font-size:12px;
+				text-align:left;
+				height:35px;
+}	
+}	
+	
+article{
+	width: 80%;
+	height: 300px;
+	margin-left: auto;
+	margin-right:auto;
+	padding:5px;
+	overflow:hidden;
+	}
